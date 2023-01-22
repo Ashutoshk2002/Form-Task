@@ -1,0 +1,45 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    overflow: auto;
+}
+
+.tagline{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+span {
+    color: red;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#tables {
+    height: 300px;
+    overflow: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size:15px;
+    font-family: sans-serif;
+    padding: 10px;
+    font-weight: 300;
+}
+
+th {
+    width: 20%;
+}
+
+ table {
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+} 
